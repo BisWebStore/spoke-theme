@@ -1,6 +1,7 @@
 {
   "name": "bisweb/spoke",
   "description": "Spoke Theme",
+  "version": "v1.0.0",
   "license": [
     "proprietary"
   ],
