@@ -1,0 +1,40 @@
+{
+  "name": "bisweb/spoke",
+  "description": "Spoke Theme",
+  "license": [
+    "proprietary"
+  ],
+  "type": "oxideshop-theme",
+  "keywords": [
+    "oxid",
+    "themes",
+    "eShop"
+  ],
+  "authors": [
+    {
+      "name": "Tim Bischoff",
+      "email": "tim.bischoff@bisweb.de",
+      "homepage": "https://bisweb.de",
+      "role": "Software Developer"
+    }
+  ],
+  "homepage": "https://bisweb.de",
+  "require": {
+    "php": ">=8.2",
+    "oxid-esales/twig-component": "*"
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "oxideshop": {
+      "assets-directory": "out/spoke",
+      "blacklist-filter": [
+        "build/**/*",
+        ".gitignore",
+        "composer.json",
+        "package.json",
+        "README.md"
+      ],
+      "target-directory": "spoke"
+    }
+  }
+}
