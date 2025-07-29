@@ -10,8 +10,12 @@ declare(strict_types=1);
 
 $aTheme = [
     'id' => 'spoke',
-    'title' => 'Spoke',
-    'description' => 'Spoke Theme',
+    'title' => 'Spoke Theme',
+    'description' => 'Spoke - Bootstrap 5 TWIG Theme',
+    'thumbnail' => 'spoke.svg',
+    'version' => '1.0.0',
+    'author' => 'Tim Bischoff, Software Developer BisWeb.de',
+    'settings' => [],
     'parentTheme' => 'apex',
     'parentVersions' => ['2.1.0'],
 ];
