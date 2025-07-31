@@ -15,7 +15,14 @@ $aTheme = [
     'thumbnail' => 'spoke.png',
     'version' => '1.0.0',
     'author' => 'Tim Bischoff, Software Developer BisWeb.de',
-    'settings' => [],
+    'settings' => [
+        [
+            'group' => 'footer',
+            'name'  => 'sGitHubUrl',
+            'type'  => 'str',
+            'value' => 'https://github.com',
+        ],
+    ],
     'parentTheme' => 'apex',
     'parentVersions' => ['2.1.0'],
 ];
