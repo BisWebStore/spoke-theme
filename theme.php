@@ -28,6 +28,12 @@ $aTheme = [
             'type'  => 'str',
             'value' => '',
         ],
+        [
+            'group' => 'usercentrics',
+            'name'  => 'blShowCMP_V3_DRAFT_VERSION',
+            'type'  => 'bool',
+            'value' => 0,
+        ],
     ],
     'parentTheme' => 'apex',
     'parentVersions' => ['2.1.0'],
