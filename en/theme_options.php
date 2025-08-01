@@ -18,5 +18,5 @@ $aLang = array(
     'SHOP_THEME_sCMP_V3_SCRIPT_ID'                  => 'CMP Version 3 Script-ID',
     'HELP_SHOP_THEME_sCMP_V3_SCRIPT_ID'             => 'Usercentrics Integration with Auto Blocking',
     'SHOP_THEME_blShowCMP_V3_DRAFT_VERSION'         => 'Activate Draft Version',
-    'HELP_SHOP_THEME_blShowCMP_V3_DRAFT_VERSION'    => 'Usercentrics Integration with Auto Blocking',
+    'HELP_SHOP_THEME_blShowCMP_V3_DRAFT_VERSION'    => 'For testing Usercentrics adjustments',
 );
