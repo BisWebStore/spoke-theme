@@ -1,0 +1,13 @@
+{% capture append = "oxidBlock_pageHead" %}
+    {% apply spaceless %}
+        {% block spoke_base_head_js %}
+            {% if oViewConf.getViewThemeParam('sCMP_V3_SCRIPT_ID') %}
+                <!-- CMP Version 3 -->
+                <script src="https://web.cmp.usercentrics.eu/modules/autoblocker.js"></script>
+                <script id="usercentrics-cmp" src="https://web.cmp.usercentrics.eu/ui/loader.js" data-settings-id="{{ oViewConf.getViewThemeParam('sCMP_V3_SCRIPT_ID')|raw }}" async></script>
+                <!-- End CMP Version 3 -->
+            {% endif %}
+        {% endblock %}
+    {% endapply %}
+{% endcapture %}
+{# include "layout/base.html.twig" #}

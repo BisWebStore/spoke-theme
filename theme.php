@@ -22,6 +22,12 @@ $aTheme = [
             'type'  => 'str',
             'value' => 'https://github.com',
         ],
+        [
+            'group' => 'usercentrics',
+            'name'  => 'sCMP_V3_SCRIPT_ID',
+            'type'  => 'str',
+            'value' => '',
+        ],
     ],
     'parentTheme' => 'apex',
     'parentVersions' => ['2.1.0'],
